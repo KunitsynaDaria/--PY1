@@ -4,7 +4,7 @@ ind = 0
 max_ = list_numbers[ind]
 
 for pos, number in enumerate(list_numbers):
-    if number >= max_:
+    if number > max_:
         max_ = number
         ind = pos
 
