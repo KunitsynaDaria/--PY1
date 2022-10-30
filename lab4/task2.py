@@ -13,7 +13,6 @@ def get_count_char(str_):
 
 def get_percent_char(dict_):
     length = sum(dict_.values())
-    dict_.values()
     for letter in dict_:
         dict_[letter] = round(dict_.get(letter) * 100 / length, 1)
     return dict_
