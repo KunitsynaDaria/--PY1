@@ -6,12 +6,10 @@ def get_unique_list_numbers() -> list[int]:
     stop = 10
     count = 15
     list_ = []
-    i = 0
-    while i < count:
+    while len(list_) < count:
         a = randint(start, stop)
         if a not in list_:
             list_ = list_ + [a]
-            i += 1
     return list_
 
 
